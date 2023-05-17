@@ -15,8 +15,8 @@
 
 <body>
 
-    <div v-for="(email, i) in emailArray" id="app">
-        <div class="mailBox p-5">
+    <div id="app">
+        <div v-show="emailArray.length==10" class="mailBox p-5">
             <template v-for="(email, i) in emailArray">
                 <h3 class="p-2" v-show="emailArray.length==10">Mail n {{i+1}}: {{email}}</h3>
             </template>
