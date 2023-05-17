@@ -1,0 +1,9 @@
+
+
+.mailBox{
+    width: 650px;
+    min-height: 200px;
+    margin: 100px auto;
+    border: 1px solid coral;
+    border-radius: 25px;
+}
